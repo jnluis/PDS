@@ -1,0 +1,98 @@
+
+Alínea a) ----------------------------------
+
+Código 1001 : ALOJAMENTO [name = Camping Serr&Sol - Tenda 1, description = Local para tenda, 2 m2, price = 40][ ocupação máxima : 1 ]
+Código 1002 : ALOJAMENTO [name = Camping Serr&Sol - Tenda 2, description = Local para tenda, 3 m2, price = 50][ ocupação máxima : 2 ]
+Código 1003 : ALOJAMENTO [name = Camping Serr&Sol - Tenda 3, description = Local para tenda, 5 m2, price = 70][ ocupação máxima : 3 ]
+Código 1004 : ALOJAMENTO [name = Camping Serr&Sol - Bungalow 1, description = Bungalow T0, price = 90][ ocupação máxima : 2 ]
+Código 1005 : ALOJAMENTO [name = Camping Serr&Sol - Bungalow 2, description = Bungalow T1, price = 120][ ocupação máxima : 3 ]
+Código 2001 : PASSEIO [name = Lousã a cavalo, description = Passeio a cavalo pelas aldeias de xisto, price = 100]
+Código 2002 : PASSEIO [name = Lousã TT, description = Passeio na serra em 4x4, price = 320]
+Código 3001 : AVENTURA [name = Escalada, description = Escalada em Góis, price = 80]
+Código 3002 : AVENTURA [name = Descida do rio, description = Descida em kayak, price = 100]
+Código 3003 : AVENTURA [name = Canyoning Ribeira da Pena, description = Descida a pé da Ribeira da Pena, price = 80]
+Código 4001 : MUNDORURAL [name = Pastoreio, description = Pastor por um dia, price = 60]
+Código 4002 : MUNDORURAL [name = Queijos & Doces, description = Faça o seu queijo e doce para o lanche, price = 80]
+
+Alínea b) ----------------------------------
+
+Código 1001 : ALOJAMENTO [name = Camping Serr&Sol - Tenda 1, description = Local para tenda, 2 m2, price = 40][ ocupação máxima : 1 ]
+Código 1002 : ALOJAMENTO [name = Camping Serr&Sol - Tenda 2, description = Local para tenda, 3 m2, price = 50][ ocupação máxima : 2 ]
+Código 1003 : ALOJAMENTO [name = Camping Serr&Sol - Tenda 3, description = Local para tenda, 5 m2, price = 70][ ocupação máxima : 3 ]
+Código 1004 : ALOJAMENTO [name = Camping Serr&Sol - Bungalow 1, description = Bungalow T0, price = 90][ ocupação máxima : 2 ]
+Código 1005 : ALOJAMENTO [name = Camping Serr&Sol - Bungalow 2, description = Bungalow T1, price = 120][ ocupação máxima : 3 ]
+Código 2001 : PASSEIO [name = Lousã a cavalo, description = Passeio a cavalo pelas aldeias de xisto, price = 100]
+Código 2002 : PASSEIO [name = Lousã TT, description = Passeio na serra em 4x4, price = 320]
+Código 3001 : AVENTURA [name = Escalada, description = Escalada em Góis, price = 80]
+Código 3002 : AVENTURA [name = Descida do rio, description = Descida em kayak, price = 100]
+Código 3003 : AVENTURA [name = Canyoning Ribeira da Pena, description = Descida a pé da Ribeira da Pena, price = 80]
+Código 4001 : MUNDORURAL [name = Pastoreio, description = Pastor por um dia, price = 60]
+Código 4002 : MUNDORURAL [name = Queijos & Doces, description = Faça o seu queijo e doce para o lanche, price = 80]
+Código 8001 : Pacote com 4 AbstractServicos de 4 tipos. Preço (desconto = 10%): 504,0
+	ALOJAMENTO [name = Camping Serr&Sol - Bungalow 2, description = Bungalow T1, price = 120][ ocupação máxima : 3 ]
+	PASSEIO [name = Lousã TT, description = Passeio na serra em 4x4, price = 320]
+	AVENTURA [name = Escalada, description = Escalada em Góis, price = 80]
+	TRANSPORTE [name = Serviço de transporte, description = Deslocação entre atividades, price = 40
+Código 8002 : Pacote com 4 AbstractServicos de 3 tipos. Preço (desconto = 10%): 234,0
+	PASSEIO [name = Lousã a cavalo, description = Passeio a cavalo pelas aldeias de xisto, price = 100]
+	MUNDORURAL [name = Pastoreio, description = Pastor por um dia, price = 60]
+	MUNDORURAL [name = Queijos & Doces, description = Faça o seu queijo e doce para o lanche, price = 80]
+	TRANSPORTE [name = Serviço de transporte, description = Deslocação entre atividades, price = 20
+
+Alínea c) ----------------------------------
+
+
+Preço médio das atividades (exclui alojamento e pacotes)
+117,143
+
+Preço mínimo das atividades de aventura
+80,000
+
+Alínea d) ----------------------------------
+
+Historico:
+	Registo: Ref 1001 - ALOJAMENTO [name = Camping Serr&Sol - Tenda 1, description = Local para tenda, 2 m2, price = 40][ ocupação máxima : 1 ]
+	Registo: Ref 1002 - ALOJAMENTO [name = Camping Serr&Sol - Tenda 2, description = Local para tenda, 3 m2, price = 50][ ocupação máxima : 2 ]
+	Registo: Ref 1003 - ALOJAMENTO [name = Camping Serr&Sol - Tenda 3, description = Local para tenda, 5 m2, price = 70][ ocupação máxima : 3 ]
+	Registo: Ref 1004 - ALOJAMENTO [name = Camping Serr&Sol - Bungalow 1, description = Bungalow T0, price = 90][ ocupação máxima : 2 ]
+	Registo: Ref 1005 - ALOJAMENTO [name = Camping Serr&Sol - Bungalow 2, description = Bungalow T1, price = 120][ ocupação máxima : 3 ]
+	Registo: Ref 2001 - PASSEIO [name = Lousã a cavalo, description = Passeio a cavalo pelas aldeias de xisto, price = 100]
+	Registo: Ref 2002 - PASSEIO [name = Lousã TT, description = Passeio na serra em 4x4, price = 320]
+	Registo: Ref 3001 - AVENTURA [name = Escalada, description = Escalada em Góis, price = 80]
+	Registo: Ref 3002 - AVENTURA [name = Descida do rio, description = Descida em kayak, price = 100]
+	Registo: Ref 3003 - AVENTURA [name = Canyoning Ribeira da Pena, description = Descida a pé da Ribeira da Pena, price = 80]
+	Registo: Ref 4001 - MUNDORURAL [name = Pastoreio, description = Pastor por um dia, price = 60]
+	Registo: Ref 4002 - MUNDORURAL [name = Queijos & Doces, description = Faça o seu queijo e doce para o lanche, price = 80]
+	Registo: Ref 8001 - Pacote com 4 AbstractServicos de 4 tipos. Preço (desconto = 10%): 504,0
+	ALOJAMENTO [name = Camping Serr&Sol - Bungalow 2, description = Bungalow T1, price = 120][ ocupação máxima : 3 ]
+	PASSEIO [name = Lousã TT, description = Passeio na serra em 4x4, price = 320]
+	AVENTURA [name = Escalada, description = Escalada em Góis, price = 80]
+	TRANSPORTE [name = Serviço de transporte, description = Deslocação entre atividades, price = 40
+	Registo: Ref 8002 - Pacote com 4 AbstractServicos de 3 tipos. Preço (desconto = 10%): 234,0
+	PASSEIO [name = Lousã a cavalo, description = Passeio a cavalo pelas aldeias de xisto, price = 100]
+	MUNDORURAL [name = Pastoreio, description = Pastor por um dia, price = 60]
+	MUNDORURAL [name = Queijos & Doces, description = Faça o seu queijo e doce para o lanche, price = 80]
+	TRANSPORTE [name = Serviço de transporte, description = Deslocação entre atividades, price = 20
+	Registo: Ref 1001 - ALOJAMENTO [name = Camping Serr&Sol - Tenda 1, description = Local para tenda, 2 m2, price = 40][ ocupação máxima : 1 ]
+	Registo: Ref 1002 - ALOJAMENTO [name = Camping Serr&Sol - Tenda 2, description = Local para tenda, 3 m2, price = 50][ ocupação máxima : 2 ]
+	Registo: Ref 1003 - ALOJAMENTO [name = Camping Serr&Sol - Tenda 3, description = Local para tenda, 5 m2, price = 70][ ocupação máxima : 3 ]
+	Registo: Ref 1004 - ALOJAMENTO [name = Camping Serr&Sol - Bungalow 1, description = Bungalow T0, price = 90][ ocupação máxima : 2 ]
+	Registo: Ref 1005 - ALOJAMENTO [name = Camping Serr&Sol - Bungalow 2, description = Bungalow T1, price = 120][ ocupação máxima : 3 ]
+	Registo: Ref 2001 - PASSEIO [name = Lousã a cavalo, description = Passeio a cavalo pelas aldeias de xisto, price = 100]
+	Registo: Ref 2002 - PASSEIO [name = Lousã TT, description = Passeio na serra em 4x4, price = 320]
+	Registo: Ref 3001 - AVENTURA [name = Escalada, description = Escalada em Góis, price = 80]
+	Registo: Ref 3002 - AVENTURA [name = Descida do rio, description = Descida em kayak, price = 100]
+	Registo: Ref 3003 - AVENTURA [name = Canyoning Ribeira da Pena, description = Descida a pé da Ribeira da Pena, price = 80]
+	Registo: Ref 4001 - MUNDORURAL [name = Pastoreio, description = Pastor por um dia, price = 60]
+	Registo: Ref 4002 - MUNDORURAL [name = Queijos & Doces, description = Faça o seu queijo e doce para o lanche, price = 80]
+	Registo: Ref 8001 - Pacote com 4 AbstractServicos de 4 tipos. Preço (desconto = 10%): 504,0
+	ALOJAMENTO [name = Camping Serr&Sol - Bungalow 2, description = Bungalow T1, price = 120][ ocupação máxima : 3 ]
+	PASSEIO [name = Lousã TT, description = Passeio na serra em 4x4, price = 320]
+	AVENTURA [name = Escalada, description = Escalada em Góis, price = 80]
+	TRANSPORTE [name = Serviço de transporte, description = Deslocação entre atividades, price = 40
+	Registo: Ref 8002 - Pacote com 4 AbstractServicos de 3 tipos. Preço (desconto = 10%): 234,0
+	PASSEIO [name = Lousã a cavalo, description = Passeio a cavalo pelas aldeias de xisto, price = 100]
+	MUNDORURAL [name = Pastoreio, description = Pastor por um dia, price = 60]
+	MUNDORURAL [name = Queijos & Doces, description = Faça o seu queijo e doce para o lanche, price = 80]
+	TRANSPORTE [name = Serviço de transporte, description = Deslocação entre atividades, price = 20
+

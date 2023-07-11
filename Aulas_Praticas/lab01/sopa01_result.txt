@@ -1,0 +1,21 @@
+Word           Length  Cords   Direction 
+programming    11      12,6       Up        
+java           4       9,1       Down      
+words          5       11,11      UpLeft    
+civil          5       6,11      Down      
+test           4       2,8       Right     
+stack          5       1,1       Right     
+
+S T A C K . . . . . . . 
+. . . . . G . T E S T . 
+. . . . . N . . . . . . 
+. . . . . I . . . . . . 
+. . . . . M . . . . . . 
+. . . . . M . . . . C . 
+. . . . . A S . . . I . 
+. . . . . R . D . . V . 
+J . . . . G . . R . I . 
+A . . . . O . . . O L . 
+V . . . . R . . . . W . 
+A . . . . P . . . . . . 
+

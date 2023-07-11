@@ -1,0 +1,41 @@
+PADRÕES CRIACIONAIS:
+
+Class:
+Factory Method
+
+Object:
+Abstract Factory
+Builder
+Singleton
+Object Pool
+Prototype
+
+
+
+PADRÕES ESTRUTURAIS:
+
+Class:
+Adapter
+
+Object:
+Bridge
+Composite --> lab07_3
+Decorator --> lab07_1; lab07_2
+Façade --> lab08_2
+Flyweight --> lab08_3
+Proxy --> lab08_1A; lab08_1B
+
+
+
+PADRÕES COMPORTAMENTAIS:
+chain of Responsibility --> lab09_2
+Command --> lab09_3
+Iterator --> lab09_1
+Mediator --> lab10_3
+Memento
+Null Object --> lab10_2
+Observer --> lab10_1
+State --> lab11_3
+Strategy --> lab11_1
+Template Method
+Visitor --> lab11_5

@@ -1,0 +1,89 @@
+public interface Mediator {
+    // gestorServicos
+    #################
+    void addNewNote(Note note);
+    void deleteNote();
+    void getInfoFromList(Note note);
+    void saveChanges();
+    void markNote();
+    void clear();
+    void sendToFilter(ListModel listModel);
+    void setElementsList(ListModel list);
+    void registerComponent(Component component);
+    void hideElements(boolean flag);
+    void createGUI();
+}
+
+public interface Component {
+                // servico
+    void setMediator(Mediator mediator);
+    //set servico
+    ###############################
+
+    String getName();
+}
+
+public class SomeButton extends SomeObject implements Component {
+    private Mediator mediator;
+    #####################
+
+    public DeleteButton() {
+        super("Del");
+    }
+
+    @Override
+    public void setMediator(Mediator mediator) {
+        ####################################
+        this.mediator = mediator;
+        ####################
+    }
+
+    @Override
+    protected void fireActionPerformed(ActionEvent actionEvent) {
+        mediator.deleteNote();
+    }
+
+    @Override
+    public String getName() {
+        return "DelButton";
+    }
+}
+
+public class Editor implements Mediator {
+    //gestorservicostandart
+              ########
+
+    private SomeButton button;
+
+    @Override
+    public void registerComponent(Component component) {
+        component.setMediator(this);
+        #######################
+
+        switch (component.getName()) {
+            case "button":
+                add = (SomeButton)component;
+                break;
+            case "otherthing":
+                del = (OtherButton)component;
+                break;
+        }
+    }
+}
+
+public class Demo {
+    public static void main(String[] args) {
+        Mediator mediator = new Editor();
+        // gestorServicos     //gestorservicostandart
+
+        mediator.registerComponent(new Title());
+        mediator.registerComponent(new TextBox());
+        mediator.registerComponent(new AddButton());
+        mediator.registerComponent(new DeleteButton());
+        mediator.registerComponent(new SaveButton());
+        mediator.registerComponent(new List(new DefaultListModel()));
+        mediator.registerComponent(new Filter());
+
+        mediator.createGUI();
+    }
+}

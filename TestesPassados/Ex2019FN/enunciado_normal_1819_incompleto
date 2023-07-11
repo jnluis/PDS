@@ -1,0 +1,18 @@
+A empresa de telecomunicacoes Nostrum tem um sistema de informaca para gerir dados sobre os servicos de tv, net e vos que comecou por comercializar, mas que foi desenhando para poder acomodar qualquer tipo de servicos(interface Servico) a disponibilizar no futuro (por exemplo dados moveis).Resumidamente, as funcionalidades disponiveis sao as seguintes:
+
+	- Servico - interface que representa qualquer servico
+	- GestorServicos - Interface que representa um gestor de servicos.
+	- GestorServicosStandard - Implementacao basica do gestor de servicos, Nesta classe os metodos de GestorServicos devem fazer o seguinte:
+		- registaServico(String chave, Servico servico) regista um servico identificado por uma dada chave. caso a chave ja exista, o servico sera substituido. Cada servico e atomico (i.e., nao tem um quantidade associada)
+		- existeServico(String chave) - Verifica se existe um servico com uma determinada chave
+		- getServico(String chave) - Devolve o servico com uma determinada chave.
+		- eleminaServico(String chave) - Elemina o servico com a chave indicada
+	- Nostrum - Programa Principal, simula um cenario de uso do gestor de servicos
+	
+a)	Complete a imlpmentacao da classe gestorservicosStandard e acrescente todas as classes e metodos necessarios, de modo a correr o programa principal e a apresentar um output semelhante ao indicado no final deste enunciado.
+
+b)	Melhore a solucao anterior de forma a permitir registar tambem no inventario pacotes de servisoc (class Pacote). Cada pacote tem um periodo de fidelizacao(n de meses) associado. O preco do pacote tem um desconto de 20% sobre o custo total dos servicos que disponibiliza.
+
+c)	Crie um novo destor de servicos, gestorservicosminimo, que implemente a interface GEstorServicos, e que reuse todas as operacos de GestorServicosStandard (apesar de serem funcoes simples assuma que podem ser mais extensas e nao queremos duplicar codigo). Esta classe nao deve permitir eleminar servicos(eleminarservico deve devolver objeto nulo) nem registar novos servicos (registaServico devolve falso se nao existir u servico com a chave indicada).
+
+d)	Pretende-se agora criar uma entidade

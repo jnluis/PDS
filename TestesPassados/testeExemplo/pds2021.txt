@@ -1,0 +1,28 @@
+/home/joao/Documents/Ano2/Semestre2/PDS-Padroes_Desenho_Software/TestesPassados/testeExemplo
+
+Alínea 1) ----------------------------------
+
+
+--- Campers disponíveis :
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC.
+Camper van com quatro lugares, 2 camas, mesa.
+Camper van com dois lugares, 1 cama, cozinha, mesa, WC.
+Tenda de tejadilho para duas pessoas, de montagem rápida.
+
+
+Utilzador Cliente Marco Silva alugou o camper MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC. com sucesso
+Utilzador Cliente Joana Inácio alugou o camper Camper van com dois lugares, 1 cama, cozinha, mesa, WC. com sucesso
+
+--- Campers disponíveis :
+Camper van com quatro lugares, 2 camas, mesa.
+Tenda de tejadilho para duas pessoas, de montagem rápida.
+
+
+Utilzador Cliente Marco Silva terminou o aluguer do camper MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC. com sucesso
+
+--- Campers disponíveis :
+Camper van com quatro lugares, 2 camas, mesa.
+Tenda de tejadilho para duas pessoas, de montagem rápida.
+MotorHome com quatro lugares, 3 camas, cozinha, mesa, WC.
+
+
